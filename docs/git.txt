@@ -17,6 +17,8 @@ $ cd /  ⇒ Volta para a raiz do computador
 $ cd ~ ⇒ Volta para a raiz do sistema do usuário
 $ clear ⇒ Limpa o terminal
 $ touch ⇒ cria arquivo
+$ nano (arquivo) = altera arquivo
+$ cat (arquivo) = mostra o arquivo
 
 Verificação
 
@@ -26,10 +28,14 @@ $ git diff ⇒ Mostra o que foi modificado
 Versionamento
 
 $ git add . ⇒ adiciona todos os arquivos a partir dessa pasta
-$ git commit ⇒ Cria a versão local
+$ git commit --m (mensagem) ⇒ Cria a versão local
 $ git log ⇒ histórico de versões (HEAD versão mais atual, origin versão no servidor)
 $ git push ⇒ Envia a nova versão para o servidor
+@ git init = Cria o versionamento local
 
+Repositorio
+
+$ git remote add (nome) => Abre a configuracao do servidor local com o servidor remoto 
 
 Git e Github
 Python, GO.
