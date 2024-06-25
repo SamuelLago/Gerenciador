@@ -1,0 +1,55 @@
+HTTP => Hyper Text Transfer Protocol
+
+Diagrama do HTTP:
+                1      2 ==> (HTTP Request)
+               -->    -->
+Agente-usuario    API    Servidor
+               <--    <--   
+                4      3 ==> (HTTP Response)
+
+
+Metodos das requisições:
+
+	1-Metodo Get: Solicitar o retorno de informacoes ao servidor
+
+	2-Metodo Post: Adicionar/Salvar informacao no servidor
+
+	3-Metodo Put: Alterar informacao
+
+	4-Metodo Delete: Deletar informacoes do servidor 
+
+Headers (Mais comuns):
+
+	1- Contest Type: Qual o tipo de informacao que esta enviando ou recebendo(Ex: Texto, Imagem, Video, ...) 
+
+	2- Metodos (Ex: Get, Post, Put, Delete, ...)
+
+	3- Cookies: Salvar informacoes para usar no futuro na navegacao do site
+
+	4- Status Code: Qual o estado da requisicao (Ex: 404 Not Found, 200 OK, 403 Cliente sem acesso, ...)
+
+Notas:
+
+	-O navegador sempre é a entidade que inicia as requisições
+
+	-Nao precisa ser API, pode ser requisicoes diretas, alem de passar por varios roteadores no percurso
+
+ISO:
+
+	Aplicação --> Software/Programa (Ex: HTTP, FTP, ...)
+	
+	Transporte --> Como os dados serao transportados (Ex: TCP, UDP, ...)
+	
+	Rede --> Responsavel pelo Caminho das informacoes (Ex: IP)
+
+	Hardware --> Parte fisica 
+
+
+Protocolos mais usados:
+
+	-IP: Achar o servidor e enviar a informacao
+
+	-TCP: Cuida de como deve ser o transporte das informacoes
+
+
+
