@@ -1,42 +1,40 @@
-
-
 Protocolo de comunicação ⇒ Forma de comunicação entre dois serviços na rede. 
 
-Exemplos:
-HTTP ⇒ 
-SSH ⇒ Chave privada(Serviço 1) e chave pública(Serviço 2)
+Exemplos: 
+	SSH ⇒ Chave privada(Serviço 1) e chave pública(Serviço 2)
 
-GIT ⇒ Versionamento de código ()
+	GIT ⇒ Versionamento de código ()
 
 Navegação
 
-$ mkdir projects ⇒ Cria um diretório(pasta)
-$ cd projects ⇒ Acessa o diretório 
-$ cd ..  ⇒ Sai do diretório 
-$ cd /  ⇒ Volta para a raiz do computador
-$ cd ~ ⇒ Volta para a raiz do sistema do usuário
-$ clear ⇒ Limpa o terminal
-$ touch ⇒ cria arquivo
-$ nano (arquivo) = altera arquivo
-$ cat (arquivo) = mostra o arquivo
-$ ls => Mostra os possiveis diretorios
+	$ mkdir projects ⇒ Cria um diretório(pasta)
+	$ cd projects ⇒ Acessa o diretório 
+	$ cd ..  ⇒ Sai do diretório 
+	$ cd /  ⇒ Volta para a raiz do computador
+	$ cd ~ ⇒ Volta para a raiz do sistema do usuário
+	$ clear ⇒ Limpa o terminal
+	$ touch ⇒ cria arquivo
+	$ nano (arquivo) = altera arquivo
+	$ cat (arquivo) = mostra o arquivo
+	$ ls => Mostra os possiveis diretorios
+	$ rm (arquivo) => Deleta o arquivo
 
 Verificação
 
-$ git status ⇒ Verifica qual arquivo que foi modificado
-$ git diff ⇒ Mostra o que foi modificado
+	$ git status ⇒ Verifica qual arquivo que foi modificado
+	$ git diff ⇒ Mostra o que foi modificado
 
 Versionamento
 
-$ git add . ⇒ adiciona todos os arquivos a partir dessa pasta
-$ git commit --m (mensagem) ⇒ Cria a versão local
-$ git log ⇒ histórico de versões (HEAD versão mais atual, origin versão no servidor)
-$ git push ⇒ Envia a nova versão para o servidor
-$ git init = Cria o versionamento local
+	$ git add . ⇒ adiciona todos os arquivos a partir dessa pasta
+	$ git commit --m (mensagem) ⇒ Cria a versão local
+	$ git log ⇒ histórico de versões (HEAD versão mais atual, origin versão no servidor)
+	$ git push ⇒ Envia a nova versão para o servidor
+	$ git init = Cria o versionamento local
 
 Repositorio
 
-$ git remote add (nome) => Abre a configuracao do servidor local com o servidor remoto 
+	$ git remote add (nome) => Abre a configuracao do servidor local com o servidor remoto 
 
 Git e Github
 Python, GO.
