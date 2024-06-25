@@ -19,6 +19,7 @@ $ clear ⇒ Limpa o terminal
 $ touch ⇒ cria arquivo
 $ nano (arquivo) = altera arquivo
 $ cat (arquivo) = mostra o arquivo
+$ ls => Mostra os possiveis diretorios
 
 Verificação
 
@@ -31,7 +32,7 @@ $ git add . ⇒ adiciona todos os arquivos a partir dessa pasta
 $ git commit --m (mensagem) ⇒ Cria a versão local
 $ git log ⇒ histórico de versões (HEAD versão mais atual, origin versão no servidor)
 $ git push ⇒ Envia a nova versão para o servidor
-@ git init = Cria o versionamento local
+$ git init = Cria o versionamento local
 
 Repositorio
 
