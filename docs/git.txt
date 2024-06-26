@@ -5,7 +5,7 @@ Exemplos:
 
 	GIT ⇒ Versionamento de código ()
 
-Navegação
+Navegação:
 
 	$ mkdir projects ⇒ Cria um diretório(pasta)
 	$ cd projects ⇒ Acessa o diretório 
@@ -19,15 +19,16 @@ Navegação
 	$ ls => Mostra os possiveis diretorios
 	$ rm (arquivo) => Deleta o arquivo
 	$ mkdir (arquivo1) && cd (arquivo2)
-	$ code . => Abre o VScode
-
-Verificação
+	$ code . => Abre o VScode	
+	$ rm -R (diretorio) => Remove a pasta
+ 
+Verificação:
 
 	$ git status ⇒ Verifica qual arquivo que foi modificado
 	$ git diff ⇒ Mostra o que foi modificado
 	$ git fetch --all => Busca diferencas entre o servidor e local 
 
-Versionamento
+Versionamento:
 
 	$ git add . ⇒ adiciona todos os arquivos a partir dessa pasta
 	$ git commit --m (mensagem) ⇒ Cria a versão local
@@ -36,8 +37,9 @@ Versionamento
 	$ git init = Cria o versionamento local
 	$ git checkout (arquivo) => Troca a branch que esta
 	$ git merge (arquivo puxante) => Puxa as alteracoes entre as branchs
+	$ git clone (link SSH) => cria um clone no local
 	
-Repositorio
+Repositorio:
 
 	$ git remote add (nome) => Abre a configuracao do servidor local com o servidor remoto 
 
@@ -53,6 +55,11 @@ Padronizacao commits:
 	•BUILD Commits, that affect build components like build tool, ci pipeline, dependencies, project version, ...
 	•OPS Commits, that affect operational components like infrastructure, deployment, backup, recovery, ...
 	•CHORE Miscellaneous commits e.g. modifying .gitignore
+
+Criar repositorio:
+	
+	1- Criar repositorio no Github 
+	2- git clone
 
 Git e Github
 Python, GO.
