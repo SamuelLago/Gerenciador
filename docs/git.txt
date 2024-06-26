@@ -19,7 +19,7 @@ Navegação
 	$ ls => Mostra os possiveis diretorios
 	$ rm (arquivo) => Deleta o arquivo
 	$ mkdir (arquivo1) && cd (arquivo2)
-
+	$ code . => Abre o VScode
 Verificação
 
 	$ git status ⇒ Verifica qual arquivo que foi modificado
