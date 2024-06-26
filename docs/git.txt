@@ -18,6 +18,7 @@ Navegação
 	$ cat (arquivo) = mostra o arquivo
 	$ ls => Mostra os possiveis diretorios
 	$ rm (arquivo) => Deleta o arquivo
+	$ mkdir (arquivo1) && cd (arquivo2)
 
 Verificação
 
