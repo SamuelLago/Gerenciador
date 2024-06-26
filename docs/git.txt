@@ -20,10 +20,12 @@ Navegação
 	$ rm (arquivo) => Deleta o arquivo
 	$ mkdir (arquivo1) && cd (arquivo2)
 	$ code . => Abre o VScode
+
 Verificação
 
 	$ git status ⇒ Verifica qual arquivo que foi modificado
 	$ git diff ⇒ Mostra o que foi modificado
+	$ git fetch --all => Busca diferencas entre o servidor e local 
 
 Versionamento
 
@@ -32,7 +34,9 @@ Versionamento
 	$ git log ⇒ histórico de versões (HEAD versão mais atual, origin versão no servidor)
 	$ git push ⇒ Envia a nova versão para o servidor
 	$ git init = Cria o versionamento local
-
+	$ git checkout (arquivo) => Troca a branch que esta
+	$ git merge (arquivo puxante) => Puxa as alteracoes entre as branchs
+	
 Repositorio
 
 	$ git remote add (nome) => Abre a configuracao do servidor local com o servidor remoto 
